@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tic Tac Toe</title>
+</head>
+<body>
+    <div class="limit">
+
+        <div class="name">
+
+            <img src="img/tic-tac-toe.png" alt="">
+            <h1>Tic Tac Toe</h1>
+
+        </div>
+
+        <div class="coment"><p id="result"></p></div>
+
+        <div class="place" id="place">
+
+            <div class="play">
+
+                <div class="single" id="single">
+                    <img src="img/single-player.png" alt="">
+                    <button id="single">Single player</button>
+                </div>
+                
+                <div class="single" id="single">
+                    <img src="img/two-players.png" alt="">
+                    <button id="two">Two players</button>
+                </div>
+
+                <template id="button_place">
+                    <div class="single" id="single">
+                        <img src="img/single-player.png" alt="">
+                        <button id="single">Single player</button>
+                    </div>
+                    
+                    <div class="single" id="single">
+                        <img src="img/two-players.png" alt="">
+                        <button id="two">Two players</button>
+                    </div>
+                </template>
+                
+            </div>
+
+            <template id="set_score">
+
+                <div class="set_score">
+
+                    <div class="score_title">
+                        <h1>Set max match</h1>
+                    </div>
+
+                    <div class="match_numbers">
+                        <img src="img/back-button.png" alt="" id="undo">
+                        <input type="text" id="win_score">
+                    </div>
+
+                    <button id="go">Let's play</button>
+                    
+                </div>
+            </template>
+
+            <template id="grid">
+                <div class="grid">
+                    <div class="cell" id="cell1"><img src="" alt="" id="img1"></div>
+                    <div class="cell" id="cell2"><img src="" alt="" id="img2"></div>
+                    <div class="cell" id="cell3"><img src="" alt="" id="img3"></div>
+                    <div class="cell" id="cell4"><img src="" alt="" id="img4"></div>
+                    <div class="cell" id="cell5"><img src="" alt="" id="img5"></div>
+                    <div class="cell" id="cell6"><img src="" alt="" id="img6"></div>
+                    <div class="cell" id="cell7"><img src="" alt="" id="img7"></div>
+                    <div class="cell" id="cell8"><img src="" alt="" id="img8"></div>
+                    <div class="cell" id="cell9"><img src="" alt="" id="img9"></div>
+                </div>
+            </template>
+ 
+        </div>
+
+        <template id="score">
+            <div class="score_place">
+                <div class="score">
+                    <h1>X:</h1>  <input type="text" value="0" id="x_score">
+                </div>
+                
+                <div class="score">
+                    <h1>0:</h1>  <input type="text" value="0" id="y_score">
+                </div>
+                
+            </div>
+        </template>
+
+        <div class="put_score">
+
+        </div>
+        
+    </div>
+    
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
