@@ -6,6 +6,8 @@ var total_matches = 0;
 var xWins = 0;
 var oWins = 0;
 
+//aceasta e schimbarea
+
 var grid = document.getElementById('grid');
 var set_score = document.getElementById('set_score');
 var button_place = document.getElementById('button_place');
